@@ -1,4 +1,24 @@
 ---
 label: Products
 hide_body: true
-fields: []
+fields:
+- name: headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Select a description for the collection
+- name: select_products
+  type: tag_list
+  default: []
+  label: Products
+  description: Select products for this article
