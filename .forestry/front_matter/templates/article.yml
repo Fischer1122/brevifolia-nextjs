@@ -1,4 +1,12 @@
 ---
 label: Article
 hide_body: true
-fields: []
+fields:
+- name: this_is_a_block
+  type: blocks
+  label: This is a block
+  template_types: []
+  config:
+    min: 
+    max: 
+  description: Select a block
